@@ -47,6 +47,11 @@
   flex-direction: column;
   row-gap: 2.5rem;
 }
+@media screen and (max-width: 1150px) {
+  .nav__list {
+    row-gap: 15px;
+  }
+}
 
 .nav__submenu {
   position: absolute;
