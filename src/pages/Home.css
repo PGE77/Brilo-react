@@ -1,0 +1,202 @@
+.head-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  padding-bottom: 112px;
+}
+@media screen and (max-width: 1024px) {
+  .head-section {
+    grid-template-columns: 1fr;
+  }
+}
+.head-section article {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+.head-section h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+.head-section .button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.section-money {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+}
+@media screen and (max-width: 1024px) {
+  .section-money {
+    grid-template-columns: 1fr;
+  }
+}
+
+.bg-money {
+  background-color: var(--first-color);
+  padding: 112px 0px;
+}
+
+.section-money article {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+.section-money article h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+.section-money article p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+.section-money article ul {
+  padding-left: 17px;
+  margin-top: 25px;
+  margin-bottom: 64px;
+}
+.section-money article ul li {
+  list-style: initial;
+  line-height: 24px;
+}
+
+.section-money-left {
+  padding: 112px 15px;
+  background: white;
+}
+.section-money-left article {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+.section-money-left .button-container-money {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.section-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section-services h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.section-services p {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.section-services .buttons-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 54px;
+  flex-direction: row;
+  gap: 32px;
+}
+.section-services .container-card {
+  padding-bottom: 112px;
+  border-bottom: 5px solid var(--first-color);
+}
+.section-services .container-card .container-card-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: center;
+}
+.section-services .container-card .container-card-flex a {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 32px;
+}
+.section-services .container-card .container-card-flex a .card-text {
+  margin: 0px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.section-services .container-card .container-card-flex a .card-title {
+  margin: 0px;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+.section-services .container-card .container-card-flex a .card-img {
+  overflow: hidden;
+}
+.section-services .container-card .container-card-flex a .card-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+.section-services .container-card .container-card-flex a .button-green {
+  cursor: pointer;
+  width: 171px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.section-footer {
+  max-width: 1408px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 64px 15px;
+}
+.section-footer .footer-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media screen and (max-width: 1024px) {
+  .section-footer .footer-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+}
+.section-footer .footer-flex span {
+  color: var(--fifth-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.section-footer .footer-flex .flex-footer-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.section-footer .footer-flex .flex-footer-links a {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--conversion-second-color);
+}
+.section-footer .footer-flex .flex-footer-links a:hover {
+  color: var(--conversion-first-color);
+}/*# sourceMappingURL=Home.css.map */
