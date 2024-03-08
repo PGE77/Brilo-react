@@ -114,7 +114,6 @@
 }
 .section-services .container-card {
   padding-bottom: 112px;
-  border-bottom: 5px solid var(--first-color);
 }
 .section-services .container-card .container-card-flex {
   display: flex;
@@ -163,6 +162,7 @@
   width: 100%;
   margin: 0px auto;
   padding: 64px 15px;
+  border-top: 5px solid var(--first-color);
 }
 .section-footer .footer-flex {
   display: flex;
@@ -190,6 +190,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 40px;
+}
+@media screen and (max-width: 1024px) {
+  .section-footer .footer-flex .flex-footer-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
 }
 .section-footer .footer-flex .flex-footer-links a {
   font-size: 16px;
