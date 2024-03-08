@@ -155,7 +155,7 @@
   }
   .nav__list {
     flex-direction: row;
-    -moz-column-gap: 2.5rem;
-         column-gap: 2.5rem;
+    -moz-column-gap: 32px;
+         column-gap: 32px;
   }
 }/*# sourceMappingURL=Navbar.css.map */
