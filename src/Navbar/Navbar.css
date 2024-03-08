@@ -105,6 +105,11 @@
   align-items: center;
   position: relative;
 }
+@media screen and (max-width: 1150px) {
+  .nav__link:hover, .nav__link.active {
+    color: var(--conversion-first-color);
+  }
+}
 .nav__link:hover:before, .nav__link.active:before {
   content: "";
   width: 100%;

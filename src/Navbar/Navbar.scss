@@ -151,7 +151,12 @@
 
   &:hover,
   &.active {
+    @media screen and (max-width:1150px) {
 
+      color: var(--conversion-first-color);
+
+
+    }
     &:before {
 
       content: "";
