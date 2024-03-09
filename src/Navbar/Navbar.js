@@ -5,7 +5,6 @@ import "./Navbar.css";
 import logo from "../img/logo.svg";
 import iconright from "../img/iconright.svg";
 
-
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -45,17 +44,23 @@ const Navbar = () => {
                 className="nav__link "
                 onClick={closeMenuOnMobile}
               >
-                Služby <img src={iconright} alt="ikonka"/>
+                Služby <img src={iconright} alt="ikonka" />
               </NavLink>
               <ul className="nav__submenu">
                 <li className="nav__submenu-item ">
-                  <a href="#">Our Company</a>
+                  <NavLink  to="/sluzby">
+                    1 Služba
+                  </NavLink>
                 </li>
                 <li className="nav__submenu-item ">
-                  <a href="#">Our Team</a>
+                  <NavLink to="/aktuality">
+                    2 Služba
+                  </NavLink>
                 </li>
                 <li className="nav__submenu-item ">
-                  <a href="#">Our Portfolio</a>
+                  <NavLink  to="/novinky">
+                    3 Služba
+                  </NavLink>
                 </li>
               </ul>
             </li>
