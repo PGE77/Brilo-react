@@ -141,6 +141,9 @@
   line-height: 32px;
   text-align: center;
 }
+.section-services .container-card .container-card-flex a .flexible {
+  flex-grow: 1;
+}
 .section-services .container-card .container-card-flex a .card-img {
   overflow: hidden;
 }
@@ -152,7 +155,6 @@
 }
 .section-services .container-card .container-card-flex a .button-green {
   cursor: pointer;
-  width: 185px;
   text-align: center;
   margin: 0px auto;
 }

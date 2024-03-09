@@ -205,6 +205,10 @@
                     text-align: center;
 
                 }
+                .flexible{
+                flex-grow:1;
+
+                }
 
                 .card-img {
                     overflow: hidden;
@@ -218,7 +222,7 @@
 
                 .button-green {
                     cursor: pointer;
-                    width: 185px;
+                    
                     text-align: center;
                     margin: 0px auto;
 
