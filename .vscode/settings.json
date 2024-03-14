@@ -1,6 +1,0 @@
-{
-    "liveSassCompile.settings.autoprefix": [
-        "defaults", // Podporované prohlížeče (Browserslist)
-        "IE 10" // Poslední dvě verze prohlížečů
-    ]
-}
