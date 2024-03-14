@@ -10,10 +10,14 @@
   }
 }
 .head-section article {
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
   gap: 16px;
 }
 .head-section h1 {
@@ -22,8 +26,10 @@
   line-height: 56px;
 }
 .head-section .button-container {
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 32px;
   margin-top: 48px;
   margin-bottom: 48px;
@@ -46,9 +52,12 @@
 }
 
 .section-money article {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-direction: column;
+      flex-direction: column;
   gap: 8px;
 }
 .section-money article h2 {
@@ -77,24 +86,33 @@
   background: white;
 }
 .section-money-left article {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-direction: column;
+      flex-direction: column;
   gap: 8px;
 }
 .section-money-left .button-container-money {
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 32px;
   margin-top: 48px;
   margin-bottom: 48px;
 }
 
 .section-services {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   text-align: center;
 }
 .section-services h2 {
@@ -106,27 +124,37 @@
   margin-bottom: 48px;
 }
 .section-services .buttons-flex {
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 54px;
-  flex-direction: row;
+  -ms-flex-direction: row;
+      flex-direction: row;
   gap: 32px;
 }
 .section-services .container-card {
   padding-bottom: 112px;
 }
 .section-services .container-card .container-card-flex {
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-direction: row;
+      flex-direction: row;
   gap: 32px;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 .section-services .container-card .container-card-flex a {
   width: 320px;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   gap: 16px;
   padding-bottom: 32px;
 }
@@ -142,7 +170,8 @@
   text-align: center;
 }
 .section-services .container-card .container-card-flex a .flexible {
-  flex-grow: 1;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
 }
 .section-services .container-card .container-card-flex a .card-img {
   overflow: hidden;
@@ -167,17 +196,25 @@
   border-top: 5px solid var(--first-color);
 }
 .section-footer .footer-flex {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-align: center;
+      align-items: center;
 }
 @media screen and (max-width: 1024px) {
   .section-footer .footer-flex {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
     gap: 25px;
   }
 }
@@ -188,16 +225,22 @@
   line-height: 24px;
 }
 .section-footer .footer-flex .flex-footer-links {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 40px;
 }
 @media screen and (max-width: 1024px) {
   .section-footer .footer-flex .flex-footer-links {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
     gap: 10px;
   }
 }
