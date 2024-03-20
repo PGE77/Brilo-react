@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <NavLink to="/" className="nav__logo">
+        <NavLink to="/brilo-react/" className="nav__logo">
           <img src={logo} alt="logo" />
         </NavLink>
 
