@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.96400bcd.css",
-    "main.js": "/static/js/main.375fc90e.js",
-    "static/js/453.5953ede2.chunk.js": "/static/js/453.5953ede2.chunk.js",
-    "static/media/schuzka.jpg": "/static/media/schuzka.681e6d2eff1879bff739.jpg",
-    "static/media/colective.jpg": "/static/media/colective.934fcb4217d713f81c0f.jpg",
-    "static/media/pcboy.jpg": "/static/media/pcboy.e34c45bcbf0266b7568e.jpg",
-    "static/media/obrazek2.jpg": "/static/media/obrazek2.20355908d11799161325.jpg",
-    "static/media/obrazek1.jpg": "/static/media/obrazek1.02e7b90525a530a08fe4.jpg",
-    "static/media/logo.svg": "/static/media/logo.18e0d02a965a14b5313245c7870060ee.svg",
-    "index.html": "/index.html",
-    "static/media/iconright.svg": "/static/media/iconright.4ad31955cb3f1ab94849fa9a7a7557f2.svg",
-    "main.96400bcd.css.map": "/static/css/main.96400bcd.css.map",
-    "main.375fc90e.js.map": "/static/js/main.375fc90e.js.map",
-    "453.5953ede2.chunk.js.map": "/static/js/453.5953ede2.chunk.js.map"
+    "main.css": "/brilo-react/static/css/main.96400bcd.css",
+    "main.js": "/brilo-react/static/js/main.9fb4dbd7.js",
+    "static/js/453.5953ede2.chunk.js": "/brilo-react/static/js/453.5953ede2.chunk.js",
+    "static/media/schuzka.jpg": "/brilo-react/static/media/schuzka.681e6d2eff1879bff739.jpg",
+    "static/media/colective.jpg": "/brilo-react/static/media/colective.934fcb4217d713f81c0f.jpg",
+    "static/media/pcboy.jpg": "/brilo-react/static/media/pcboy.e34c45bcbf0266b7568e.jpg",
+    "static/media/obrazek2.jpg": "/brilo-react/static/media/obrazek2.20355908d11799161325.jpg",
+    "static/media/obrazek1.jpg": "/brilo-react/static/media/obrazek1.02e7b90525a530a08fe4.jpg",
+    "static/media/logo.svg": "/brilo-react/static/media/logo.0b10bb083df26a43665575076d376108.svg",
+    "index.html": "/brilo-react/index.html",
+    "static/media/iconright.svg": "/brilo-react/static/media/iconright.2c382babf19712286b79bd905325e0be.svg",
+    "main.96400bcd.css.map": "/brilo-react/static/css/main.96400bcd.css.map",
+    "main.9fb4dbd7.js.map": "/brilo-react/static/js/main.9fb4dbd7.js.map",
+    "453.5953ede2.chunk.js.map": "/brilo-react/static/js/453.5953ede2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96400bcd.css",
-    "static/js/main.375fc90e.js"
+    "static/js/main.9fb4dbd7.js"
   ]
 }
