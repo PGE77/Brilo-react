@@ -19,7 +19,7 @@ const App = () => {
      <Navbar/>
      <main className="main-content">
        <Routes>
-       <Route path="/" element={<Home />} />
+       <Route path="/brilo-react/" element={<Home />} />
          <Route path="/o-nas" element={<About />} />
          <Route path="/sluzby" element={<Services />} />
          <Route path="/aktuality" element={<Actuality />} />
