@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brilo-react/static/css/main.c088e0ae.css",
-    "main.js": "/brilo-react/static/js/main.77124b8a.js",
+    "main.js": "/brilo-react/static/js/main.1758dc40.js",
     "static/js/453.5953ede2.chunk.js": "/brilo-react/static/js/453.5953ede2.chunk.js",
     "static/media/schuzka.jpg": "/brilo-react/static/media/schuzka.681e6d2eff1879bff739.jpg",
     "static/media/colective.jpg": "/brilo-react/static/media/colective.934fcb4217d713f81c0f.jpg",
@@ -12,11 +12,11 @@
     "index.html": "/brilo-react/index.html",
     "static/media/iconright.svg": "/brilo-react/static/media/iconright.2c382babf19712286b79bd905325e0be.svg",
     "main.c088e0ae.css.map": "/brilo-react/static/css/main.c088e0ae.css.map",
-    "main.77124b8a.js.map": "/brilo-react/static/js/main.77124b8a.js.map",
+    "main.1758dc40.js.map": "/brilo-react/static/js/main.1758dc40.js.map",
     "453.5953ede2.chunk.js.map": "/brilo-react/static/js/453.5953ede2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c088e0ae.css",
-    "static/js/main.77124b8a.js"
+    "static/js/main.1758dc40.js"
   ]
 }
