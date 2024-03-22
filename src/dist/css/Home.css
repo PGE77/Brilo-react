@@ -249,6 +249,13 @@
   margin: 0px auto;
 }
 
+.money-button-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .section-footer {
   max-width: 1408px;
   width: 100%;

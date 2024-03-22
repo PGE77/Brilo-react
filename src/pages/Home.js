@@ -79,7 +79,7 @@ const Home = () => {
               </li>
             </ul>
 
-            <div className="button-container-money">
+            <div className="money-button-flex">
               <Link to="/" className="button-green">
                 Zjistit více
               </Link>

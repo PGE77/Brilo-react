@@ -171,7 +171,7 @@
 
     .container-card {
         padding-bottom: 112px;
-        
+
 
         .container-card-flex {
 
@@ -205,8 +205,9 @@
                     text-align: center;
 
                 }
-                .flexible{
-                flex-grow:1;
+
+                .flexible {
+                    flex-grow: 1;
 
                 }
 
@@ -222,7 +223,7 @@
 
                 .button-green {
                     cursor: pointer;
-                    
+
                     text-align: center;
                     margin: 0px auto;
 
@@ -238,12 +239,18 @@
 
 }
 
+.money-button-flex {
+    display: flex;
+   
+}
+
 .section-footer {
     max-width: 1408px;
     width: 100%;
     margin: 0px auto;
     padding: 64px 15px;
     border-top: 5px solid var(--first-color);
+
     .footer-flex {
         display: flex;
         flex-direction: row;
@@ -263,8 +270,8 @@
         span {
             color: var(--fifth-color);
             font-weight: 500;
-            font-size:16px;
-            line-height:24px;
+            font-size: 16px;
+            line-height: 24px;
 
         }
 
@@ -273,13 +280,14 @@
             flex-direction: row;
             flex-wrap: wrap;
             gap: 40px;
+
             @media screen and (max-width:1024px) {
 
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 gap: 10px;
-    
+
             }
 
             a {
